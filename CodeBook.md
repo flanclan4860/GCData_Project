@@ -1,11 +1,17 @@
 
-## Code Book for Coursera Getting and Cleaning Data Course Project
+## Code Book for Coursera Getting and Cleaning Data Course Project  
 
 Subject  
- Subject number: 1-30
+ Subject number: 1-30  
  
 Activity  
- Activity name: LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+ Activity name:   
+LAYING    
+SITTING   
+STANDING  
+WALKING  
+WALKING_DOWNSTAIRS    
+WALKING_UPSTAIRS  
   
 The set of variables that were estimated from the signals are:   
 
@@ -14,71 +20,71 @@ std(): Standard deviation
 
 The complete list of variables of each feature vector:  
 
-tBodyAccelMeanY
-tBodyAccelMeanZ
-tBodyAccelStdX
-tBodyAccelStdY
-tBodyAccelStdZ
-tGravityAccelMeanX
-tGravityAccelMeanY
-tGravityAccelMeanZ
-tGravityAccelStdX
-tGravityAccelStdY
-tGravityAccelStdZ
-tBodyAccelJerkMeanX
-tBodyAccelJerkMeanY
-tBodyAccelJerkMeanZ
-tBodyAccelJerkStdX
-tBodyAccelJerkStdY
-tBodyAccelJerkStdZ
-tBodyGyroMeanX
-tBodyGyroMeanY
-tBodyGyroMeanZ
-tBodyGyroStdX
-tBodyGyroStdY
-tBodyGyroStdZ
-tBodyGyroJerkMeanX
-tBodyGyroJerkMeanY
-tBodyGyroJerkMeanZ
-tBodyGyroJerkStdX
-tBodyGyroJerkStdY
-tBodyGyroJerkStdZ
-tBodyAccelMagMean
-tBodyAccelMagStd
-tGravityAccelMagMean
-tGravityAccelMagStd
-tBodyAccelJerkMagMean
-tBodyAccelJerkMagStd
-tBodyGyroMagMean
-tBodyGyroMagStd
-tBodyGyroJerkMagMean
-tBodyGyroJerkMagStd
-fBodyAccelMeanX
-fBodyAccelMeanY
-fBodyAccelMeanZ
-fBodyAccelStdX
-fBodyAccelStdY
-fBodyAccelStdZ
-fBodyAccelJerkMeanX
-fBodyAccelJerkMeanY
-fBodyAccelJerkMeanZ
-fBodyAccelJerkStdX
-fBodyAccelJerkStdY
-fBodyAccelJerkStdZ
-fBodyGyroMeanX
-fBodyGyroMeanY
-fBodyGyroMeanZ
-fBodyGyroStdX
-fBodyGyroStdY
-fBodyGyroStdZ
-fBodyAccelMagMean
-fBodyAccelMagStd
-fBodyBodyAccelJerkMagMean
-fBodyBodyAccelJerkMagStd
-fBodyBodyGyroMagMean
-fBodyBodyGyroMagStd
-fBodyBodyGyroJerkMagMean
-fBodyBodyGyroJerkMagStd
+tBodyAccelMeanY  
+tBodyAccelMeanZ  
+tBodyAccelStdX  
+tBodyAccelStdY  
+tBodyAccelStdZ  
+tGravityAccelMeanX  
+tGravityAccelMeanY  
+tGravityAccelMeanZ  
+tGravityAccelStdX  
+tGravityAccelStdY  
+tGravityAccelStdZ  
+tBodyAccelJerkMeanX  
+tBodyAccelJerkMeanY  
+tBodyAccelJerkMeanZ  
+tBodyAccelJerkStdX  
+tBodyAccelJerkStdY  
+tBodyAccelJerkStdZ  
+tBodyGyroMeanX  
+tBodyGyroMeanY  
+tBodyGyroMeanZ  
+tBodyGyroStdX  
+tBodyGyroStdY  
+tBodyGyroStdZ  
+tBodyGyroJerkMeanX  
+tBodyGyroJerkMeanY  
+tBodyGyroJerkMeanZ  
+tBodyGyroJerkStdX  
+tBodyGyroJerkStdY  
+tBodyGyroJerkStdZ  
+tBodyAccelMagMean  
+tBodyAccelMagStd  
+tGravityAccelMagMean  
+tGravityAccelMagStd  
+tBodyAccelJerkMagMean  
+tBodyAccelJerkMagStd  
+tBodyGyroMagMean  
+tBodyGyroMagStd  
+tBodyGyroJerkMagMean  
+tBodyGyroJerkMagStd  
+fBodyAccelMeanX  
+fBodyAccelMeanY  
+fBodyAccelMeanZ  
+fBodyAccelStdX  
+fBodyAccelStdY  
+fBodyAccelStdZ  
+fBodyAccelJerkMeanX  
+fBodyAccelJerkMeanY  
+fBodyAccelJerkMeanZ  
+fBodyAccelJerkStdX  
+fBodyAccelJerkStdY  
+fBodyAccelJerkStdZ  
+fBodyGyroMeanX  
+fBodyGyroMeanY  
+fBodyGyroMeanZ  
+fBodyGyroStdX  
+fBodyGyroStdY  
+fBodyGyroStdZ  
+fBodyAccelMagMean  
+fBodyAccelMagStd  
+fBodyBodyAccelJerkMagMean  
+fBodyBodyAccelJerkMagStd  
+fBodyBodyGyroMagMean  
+fBodyBodyGyroMagStd  
+fBodyBodyGyroJerkMagMean  
+fBodyBodyGyroJerkMagStd  
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
