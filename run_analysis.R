@@ -15,9 +15,9 @@ y_train <- read.table("./UCI HAR Dataset/train/y_train.txt")
 features <- read.table("./UCI HAR Dataset/features.txt")
 activities <- read.table("./UCI HAR Dataset/activity_labels.txt")
 
-
-# Read in colNames file, created by editing features.txt, cleaning up 
-# variable names
+# Read in colNames file, 
+# created this file by editing features.txt, and cleaning up 
+# the variable names
 colNames <- read.table("./UCI HAR Dataset/colNames.txt")
 
 # Combine test and training data
